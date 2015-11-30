@@ -99,6 +99,13 @@ public class Bank
         savingsBal  += amount;
     }
     
+    public void splitDeposit(double amount, double p)
+    {
+        p            =  p * 0.01;
+        checkingBal += amount * p;
+        savingsBal  += amount * (1 - p);
+    }
+    
     public void closeChecking()
     {
         checkingBal = 0;

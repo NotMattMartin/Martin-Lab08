@@ -47,11 +47,11 @@ public class Lab08st
         sue.showBalances();
 
         // Remove the comment symbols below if doing the 100 or 110 point version.
-/*
+
         System.out.println("Tom deposits 75% of a $10,000 paycheck in checking");
         System.out.println("and puts the rest in savings.");
         tom.splitDeposit(10000,75);
         tom.showBalances();
-*/
+
     }
 }
